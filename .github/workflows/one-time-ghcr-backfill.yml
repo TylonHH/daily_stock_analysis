@@ -1,4 +1,5 @@
 name: One-time GHCR image backfill
+# Retry with the corrected installable Longbridge version.
 on:
   push:
     branches: [main]
