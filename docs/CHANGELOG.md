@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+- [修复] 将 Longbridge SDK 固定到当前 Docker 构建可安装的 0.2.74，恢复 GHCR 镜像构建。
+
 - [改进] 添加一次性手动 GHCR 镜像回填 workflow；仅在添加 workflow 文件时自动运行，镜像构建仍需满足现有依赖约束。
 - [修复] API 异步批量分析共享概念板块排行缓存，避免同批多股重复拉取全市场概念排行。
 - [文档] 补齐概念板块排行字段契约与通知报告行业/概念类型列展示说明。
